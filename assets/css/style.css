@@ -10,7 +10,7 @@ body {
     font-family: Raleway, sans-serif;
     font-weight: 300;
     color: #fafafa;
-    background-color: #313338;
+    background-color: #012b28;
 }
 
 /* headings */
@@ -25,33 +25,42 @@ h1, h2 {
 /* logo */
 
 #logo {
-    float: left;
-    color: #d9a23d;
-    margin: 5px 0 0 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 130%;
+    color: #ebb42c;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#logo img {
+    width: 50px;
+    height: 50px;
+    padding-right: 15px;
 }
 
 /* nav section */
 
-nav {
-    width: 100%;
-    height: 85px;
-    background-color: #01261F;
-}
-
 #nav-links {
-    font-size: 110%;
-    letter-spacing: 4px;
-    color: #d9a23d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 100%;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ebb42c;
 }
 
 #nav-links, #logo {
-    line-height: 75px;
+    line-height: 50px;
 }
 
 #nav-links li {
-    float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin: 0 5px 0 10px;
 }
 
 #nav-links a {
@@ -60,9 +69,9 @@ nav {
 }
 
 #nav-links a:hover {
-    border-bottom: 1px solid #d9a23d;
+    border-bottom: 1px solid #ebb42c;
 }
 
 .active {
-    border-bottom: 1px solid #d9a23d;
+    border-bottom: 1px solid #ebb42c;
 }
