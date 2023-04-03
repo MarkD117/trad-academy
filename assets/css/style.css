@@ -74,3 +74,18 @@ header a {
 .active {
     border-bottom: 1px solid #ebb42c;
 }
+
+/* Hero image */
+
+#hero-conatiner {
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 550px;
+    width: 100%;
+    background: url('../images/heroimage.jpg') no-repeat center center;
+}
