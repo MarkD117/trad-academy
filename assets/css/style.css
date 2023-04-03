@@ -9,8 +9,8 @@
 body {
     font-family: Raleway, sans-serif;
     font-weight: 300;
-    color: #fafafa;
-    background-color: #012b28;
+    color: #3a3a3a;
+    background-color: #e8e8e8;
 }
 
 /* headings */
@@ -19,7 +19,7 @@ h1, h2 {
     font-family: Tenor Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: #fafafa;
+    color: #3a3a3a;
 }
 
 /* logo */
@@ -28,8 +28,8 @@ h1, h2 {
     display: flex;
     justify-content: center;
     padding-top: 10px;
-    font-size: 130%;
-    color: #ebb42c;
+    font-size: 135%;
+    color: #3a3a3a;
 }
 
 header a {
@@ -49,9 +49,8 @@ header a {
     align-items: center;
     justify-content: space-around;
     font-size: 100%;
-    font-weight: 700;
     letter-spacing: 2px;
-    color: #ebb42c;
+    color: #3a3a3a;
 }
 
 #nav-links, #logo {
@@ -68,11 +67,11 @@ header a {
 }
 
 #nav-links a:hover {
-    border-bottom: 1px solid #ebb42c;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
-    border-bottom: 1px solid #ebb42c;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* Hero image */
