@@ -83,8 +83,37 @@ header a {
     position: relative;
 }
 
+#site-subheading, #site-subheading h2 {
+    color: #fafafa;
+}
+
 #hero-image {
     height: 550px;
     width: 100%;
     background: url('../images/heroimage.jpg') no-repeat center center;
+}
+
+hr {
+    border-top: 1px solid #fafafa;
+    width: 250px;
+    margin: 5px 0;
+}
+
+#site-subheading {
+    font-size: 130%;
+    font-family: Tenor Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    width: 300px;
+    height: 200px;
+
+    padding: 40px 0 0 10px;
+
+    background-color: rgba(55, 114, 63, 0.7);
+
+    bottom: 30px;
+    left: 0;
+
+    position: absolute;
 }
