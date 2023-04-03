@@ -47,7 +47,7 @@ header a {
 #nav-links {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 100%;
     font-weight: 700;
     letter-spacing: 2px;
@@ -60,7 +60,6 @@ header a {
 
 #nav-links li {
     list-style-type: none;
-    margin: 0 5px 0 10px;
 }
 
 #nav-links a {
