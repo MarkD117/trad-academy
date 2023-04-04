@@ -142,7 +142,7 @@ hr {
     margin: 5px 0;
 }
 
-#about-heading, #trad-info-heading {
+#about-heading, #trad-info-heading, #why-learn-heading {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,6 +167,10 @@ hr {
 
 /* Trad info section */
 
-#trad-info-heading h2 {
+#trad-info-heading h2, #why-learn-heading h2 {
     padding-top: 30px;
+}
+
+#why-learn-heading img {
+    height: 300px;
 }
