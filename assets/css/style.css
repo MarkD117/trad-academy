@@ -221,7 +221,7 @@ hr {
     line-height:1.6;
     position: relative;
     background:#fafafa;
-  }
+}
   
 /* Places quote icon next to text */
 .quote::before {
@@ -232,7 +232,7 @@ hr {
     position: absolute;
     left: 10px;
     top:-10px;
-  }
+}
   
 /* Changes style of quote author */
 .quote span {
@@ -241,4 +241,4 @@ hr {
     font-style: normal;
     font-weight: bold;
     margin-top:1em;
-  }
+}
