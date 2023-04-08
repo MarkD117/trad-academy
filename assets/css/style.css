@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Raleway:wght@300&family=Tenor+Sans&display=swap');
 
 * {
     margin: 0;
@@ -205,3 +205,40 @@ hr {
 #why-learn-heading .heading-spacer {
     top: 175px;
 }
+
+/* Quotes section */
+
+/* Style for quote text, bar and background */
+.quote {
+    font-size: 100%;
+    width: 60%;
+    margin: 50px auto;
+    font-family:Open Sans, sans-serif;
+    font-style:italic;
+    color: #3a3a3a;
+    padding:1.2em 30px 1.2em 75px;
+    border-left:8px solid #78c088 ;
+    line-height:1.6;
+    position: relative;
+    background:#fafafa;
+  }
+  
+/* Places quote icon next to text */
+.quote::before {
+    font-family:Arial;
+    content: "\201C";
+    color:#78c088;
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+  }
+  
+/* Changes style of quote author */
+.quote span {
+    display:block;
+    color:#302f2f;
+    font-style: normal;
+    font-weight: bold;
+    margin-top:1em;
+  }
