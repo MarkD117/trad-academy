@@ -276,3 +276,11 @@ footer {
     padding: 4px;
     margin-bottom: 4px;
 }
+
+/* Lessons page */
+
+#lessons-header-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/lessonsheaderimagemobile.jpg') no-repeat center center;
+}
