@@ -6,6 +6,8 @@
     border: none;
 }
 
+/* Initial body style */
+
 body {
     font-family: Raleway, sans-serif;
     font-weight: 300;
@@ -67,6 +69,8 @@ header a {
     color: inherit;
 }
 
+/* Indicator showing user what page they are on */
+
 #nav-links a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -84,6 +88,8 @@ header a {
     position: relative;
 }
 
+/* Text changed to off-white for readability */
+
 #site-subheading, #site-subheading h2 {
     color: #fafafa;
 }
@@ -100,22 +106,19 @@ hr {
     margin: 5px 0;
 }
 
+/* Subheading gives users extra insight into site content */
+
 #site-subheading {
     font-size: 130%;
     font-family: Tenor Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-
     width: 300px;
     height: 200px;
-
     padding: 40px 0 0 10px;
-
     background-color: rgba(55, 114, 63, 0.7);
-
     bottom: 30px;
     left: 0;
-
     position: absolute;
 }
 
@@ -135,6 +138,8 @@ hr {
 
 /* About us section */
 
+/* Slightly thickening hr to excentuate it infront of image */
+
 .heading-spacer {
     border-top: 2px solid #fafafa;
     width: 150px;
@@ -142,20 +147,23 @@ hr {
 
 #about-heading, #trad-info-heading, #why-learn-heading {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
+
+/* Gold tint background deacreases large white space */
 
 .info-text-background {
     background-color: rgba(114, 113, 55, 0.7);
     padding-bottom: 20px;
 }
 
-
 #academy-info p {
     padding: 10px 20px;
     color: #fafafa;
 }
+
+/* Giving image a container to position text inside */
 
 .info-img-container {
     width: 100%;
@@ -163,6 +171,8 @@ hr {
     margin-bottom: 15px;
     position: relative;
 }
+
+/* Slighly darken image to excentuate heading element */
 
 #academy-info img {
     width: 100%;
@@ -175,6 +185,8 @@ hr {
 .info-title {
     font-size: 175%;
 }
+
+/* Style for positioning heading element in center of img container */
 
 .info-title, .heading-spacer {
     color: #fafafa;
@@ -192,15 +204,21 @@ hr {
     top: 200px;
 }
 
+/* [What is Trad?] section spacer (hr), is longer as heading content is longer */
+
 #trad-info-heading .heading-spacer {
     width: 200px;
 }
 
 /* Why learn section */
 
+/* Why learn image is taller to prevent the image being distorted */
+
 #why-learn-heading .info-img-container, #why-learn-heading img {
     height: 300px;
 }
+
+/* As img element is taller, the heading spacer position must be adjusted accordingly */
 
 #why-learn-heading .heading-spacer {
     top: 175px;
