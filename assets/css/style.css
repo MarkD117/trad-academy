@@ -329,3 +329,19 @@ footer {
     height: 100%;
     border-radius: 50%;
 }
+
+.instruments-text-background {
+    background-color: rgba(114, 113, 55, 0.7);
+    padding: 15px 0;
+    margin-top: 15px;
+}
+
+#banjo-div h2 {
+    text-align: center;
+    color: #fafafa;
+    padding-top: 10px;
+}
+
+strong {
+    font-weight: 700;
+}
