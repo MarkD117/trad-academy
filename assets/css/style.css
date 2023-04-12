@@ -346,16 +346,20 @@ strong {
     font-weight: 700;
 }
 
-#banjo-div a {
-    margin: 10px auto 0 auto;
-    display: block;
-}
-
 audio {
     margin: 0 auto;
     display: block;
     border-radius: 25px;
     width: 80%;
+}
+
+.padding-for-audio {
+    padding-bottom: 20px;
+}
+
+#banjo-div a {
+    margin: 10px auto 0 auto;
+    display: block;
 }
 
 .signup-button {
