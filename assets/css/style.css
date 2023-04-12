@@ -345,3 +345,11 @@ footer {
 strong {
     font-weight: 700;
 }
+
+audio {
+    margin: 0 auto;
+    display: block;
+    border-radius: 25px;
+    padding-top: 10px;
+    width: 80%;
+}
