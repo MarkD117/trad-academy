@@ -347,10 +347,8 @@ strong {
 }
 
 #banjo-div a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
+    margin: 10px auto 0 auto;
+    display: block;
 }
 
 audio {
@@ -367,6 +365,7 @@ audio {
     color: #fafafa;
     font-size: 15px;
     background: #1E9E3A;
+    width: 60px;
     padding: 10px 20px 10px 20px;
     margin-top: 15px;
     text-decoration: none;
