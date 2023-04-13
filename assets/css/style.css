@@ -343,7 +343,7 @@ footer {
     margin: 15px 0;
 }
 
-#banjo-div h2 {
+.instrument-heading {
     text-align: center;
     color: #fafafa;
     padding-top: 10px;
@@ -364,7 +364,7 @@ audio {
     padding-bottom: 20px;
 }
 
-#banjo-div a {
+.signup-mobile-position {
     margin: 10px auto 0 auto;
     display: block;
 }
