@@ -343,6 +343,12 @@ footer {
     border-radius: 50%;
 }
 
+#fiddle-img {
+    background: url('../images/fiddleimage2.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
 .instruments-text-background {
     background-color: rgba(114, 113, 55, 0.7);
     padding: 15px 0;
