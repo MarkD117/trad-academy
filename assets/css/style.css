@@ -358,26 +358,18 @@ footer {
 
 #mandolin-img {
     background: url('../images/mandolinimage.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
 }
 
 #fiddle-img {
     background: url('../images/fiddleimage.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
 }
 
 #guitar-img {
     background: url('../images/guitarimage.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
 }
 
 #piano-img {
     background: url('../images/pianoimage.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
 }
 
 .instruments-text-background {
