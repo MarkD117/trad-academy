@@ -378,6 +378,12 @@ footer {
     margin: 15px 0;
 }
 
+/* Connects piano div to footer */
+
+#piano-div .instruments-text-background {
+    margin-bottom: 0;
+}
+
 .instrument-heading {
     text-align: center;
     color: #fafafa;
