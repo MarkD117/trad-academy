@@ -347,10 +347,13 @@ footer {
     margin: 0 auto;
 }
 
-#banjo-img {
-    background: url('../images/banjoimage.jpg') no-repeat center center;
+.lessons-img-style {
     height: 100%;
     border-radius: 50%;
+}
+
+#banjo-img {
+    background: url('../images/banjoimage.jpg') no-repeat center center;
 }
 
 #mandolin-img {
