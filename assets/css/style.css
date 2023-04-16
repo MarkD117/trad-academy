@@ -320,6 +320,21 @@ footer {
     margin: 0 auto;
 }
 
+#lessons-intro {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#lessons-title {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#lessons-intro p {
+    color: #3a3a3a;
+}
+
 .instrument-img-container {
     width: 300px;
     height: 300px;
