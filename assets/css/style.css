@@ -445,52 +445,54 @@ audio {
 
 #flip-cards-position {
     display: flex;
-   flex-flow: row wrap;
-   text-align: center;
-   justify-content: center;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: center;
 }
 
- /* The flip card container */
- .flip-card {
+/* The flip card container */
+.flip-card {
     background-color: transparent;
     width: 300px;
     height: 300px;
     padding: 15px;
     perspective: 1000px;
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-card-inner {
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
     position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
+    -webkit-backface-visibility: hidden;
+    /* Safari */
     backface-visibility: hidden;
     border-radius: 20px;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
     background-color: #bbb;
     color: black;
-  }
+}
 
-  .flip-card-front h2 {
+.flip-card-front h2 {
     color: #fafafa;
     font-size: 170%;
     clear: both;
@@ -501,21 +503,21 @@ audio {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .flip-card-front img {
+.flip-card-front img {
     filter: brightness(50%);
     border-radius: 20px;
-  }
-  
-  /* Style the back side */
-  .flip-card-back {
+}
+
+/* Style the back side */
+.flip-card-back {
     background-color: #3a3a3a;
     color: #fafafa;
     transform: rotateY(180deg);
-  } 
+}
 
-  .flip-card-content-position {
+.flip-card-content-position {
     width: 300px;
     clear: both;
     display: block;
@@ -523,9 +525,28 @@ audio {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .flip-card-content-position h2,  .flip-card-content-position h3 {
+.flip-card-content-position h2,
+.flip-card-content-position h3 {
     color: #fafafa;
     padding: 10px;
-  }
+}
+
+#trad-session-video {
+    padding-top: 15px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#trad-session-video p {
+    color: #3a3a3a;
+}
+
+#trad-session-video iframe {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
