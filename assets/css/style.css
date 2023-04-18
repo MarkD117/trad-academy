@@ -456,6 +456,22 @@ audio {
     background: url('../images/sessionsheaderimagemobile.jpg') no-repeat center center;
 }
 
+#sessions-intro {
+    padding-top: 15px;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+#sessions-intro h2 {
+    text-align: center;
+    font-size: 170%;
+}
+
+#sessions-intro p {
+    color: #3a3a3a;
+}
+
 #flip-cards-position {
     display: flex;
     flex-flow: row wrap;
