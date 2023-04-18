@@ -572,6 +572,7 @@ audio {
 
 #trad-session-video p {
     color: #3a3a3a;
+    padding-bottom: 15px;
 }
 
 #trad-session-video iframe {
