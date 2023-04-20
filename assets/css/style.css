@@ -635,3 +635,19 @@ option {
 .user-input:hover {
     border-color: #78c088;
 }
+
+.form-signup-button {
+    margin: 10px auto 0 auto;
+    border-radius: 25px;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #78c088;
+    color: #fafafa;
+    display: block;
+}
+
+.form-signup-button:hover {
+    background-color: #fafafa;
+    color: #78c088;
+}
