@@ -34,6 +34,26 @@
         </nav>
     </header>
     <main>
+        <section class="form-container" aria-labelledby="signup-form">
+            <form method="GET" action="" class="academy-signup-form">
+                <h2 id="signup-form">Let's get you playing! <i class="fa-solid fa-music"></i></h2>
+                <label for="fname">First Name</label>
+                <input id="fname" name="first_name" type="text" class="user-input" required>
+                <label for="lname">Last Name</label>
+                <input id="lname" name="last_name" type="text" class="user-input" required>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" class="user-input" required>
+                <label for="instrument">Choose an Instrument</label>
+                <select name="instrument" id="instrument">
+                    <option value="banjo">Banjo</option>
+                    <option value="mandolin">Mandolin</option>
+                    <option value="fiddle">Fiddle</option>
+                    <option value="guitar">Guitar</option>
+                    <option value="piano">Piano</option>
+                </select>
+                <input class="form-signup-button" type="submit" value="Let's Play!">
+            </form>
+        </section>
     </main>
     <footer>
         <ul class="social-networks">
