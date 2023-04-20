@@ -580,3 +580,29 @@ audio {
     margin: 0 auto;
     width: 100%;
 }
+
+/* Sign-up form */
+
+.form-container {
+    clear: left;
+    background: url('../images/signupimage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 950px;
+}
+
+.academy-signup-form {
+    margin: 175px 5% 0 0;
+    color: #fafafa;
+    background-color: rgba(55, 55, 55, 0.6);
+    max-width: 425px;
+    position: absolute;
+    left: 5%;
+    padding: 30px;
+    border-radius: 5px
+}
+
+.academy-signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
