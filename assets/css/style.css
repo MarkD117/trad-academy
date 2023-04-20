@@ -651,3 +651,45 @@ option {
     background-color: #fafafa;
     color: #78c088;
 }
+
+/* Confirmation page */
+
+#confirmation-bg {
+    color: #fafafa;
+    /* filter: brightness(50%); */
+    background: url('../images/confirmationimage2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 1100px;
+}
+
+#confirmation-text-container {
+    padding-top: 100px;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.confirmation-text {
+    padding: 20px 0 20px 0;
+    letter-spacing: 2px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#home-link {
+    color: #78c088;
+    text-decoration: none;
+}
+
+#confirmation-text-container h1 {
+    font-size: 230%;
+    color: #fafafa;
+}
+
+#confirmation-text-container h2 {
+    font-size: 165%;
+    color: #fafafa;
+}
