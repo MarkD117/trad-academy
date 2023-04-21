@@ -768,3 +768,61 @@ option {
         right: 2%;
     }
 }
+
+@media screen and (min-width: 650px) {
+
+    #trad-info-heading .info-img-container,
+    #trad-info-heading img {
+        height: 500px;
+    }
+
+    #why-learn-heading .info-img-container,
+    #why-learn-heading img {
+        height: 500px;
+    }
+
+    #trad-info-heading .heading-spacer {
+        top: 275px;
+    }
+
+    #why-learn-heading .heading-spacer {
+        top: 275px;
+    }
+
+    #banjo-div, #fiddle-div, #piano-div {
+        display: flex;
+        align-items: center;
+    }
+
+    #mandolin-div, #guitar-div {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+    }
+
+    .instruments-text-background {
+        width: 47%;
+    }
+
+    #contact-info {
+        font-size: 120%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: #fafafa;
+        margin-top: 35px;
+    }
+    
+    #contact-info p {
+        padding: 4px;
+        margin-bottom: 4px;
+    }
+
+    #trad-session-video iframe {
+        display: block;
+        height: 500px;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
