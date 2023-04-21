@@ -924,3 +924,63 @@ option {
     }
     
 }
+
+@media screen and (min-width: 1500px) {
+
+    #academy-info {
+        width: 60%;
+    }
+
+    #instruments-info {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    
+
+    audio {
+        width: 70%; 
+        margin-left: 30px;
+    }
+    
+    
+    .audio-signup-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .signup-button {
+        margin-top: 0;
+    }
+    
+    .signup-button:hover {
+        background: #78C088;
+        text-decoration: none;
+    }
+
+    /* .instrument-img-container {
+        width: 400px;
+        height: 400px;
+    }
+
+    #banjo-img {
+        background: url('../images/banjoimagemediaq.jpg') no-repeat center center;
+    }
+    
+    #mandolin-img {
+        background: url('../images/mandolinimagemediaq.jpg') no-repeat center center;
+    }
+    
+    #fiddle-img {
+        background: url('../images/fiddleimagemediaq.jpg') no-repeat center center;
+    }
+    
+    #guitar-img {
+        background: url('../images/guitarimagemediaq.jpg') no-repeat center center;
+    }
+    
+    #piano-img {
+        background: url('../images/pianoimagemediaq.jpg') no-repeat center center;
+    } */
+}
