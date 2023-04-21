@@ -25,62 +25,6 @@ h2 {
     color: #3a3a3a;
 }
 
-/* logo */
-
-#logo {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    font-size: 135%;
-    letter-spacing: 6px;
-    color: #3a3a3a;
-}
-
-header a {
-    text-decoration: none;
-}
-
-#logo img {
-    width: 50px;
-    height: 50px;
-    padding-right: 15px;
-}
-
-/* nav section */
-
-#nav-links {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 100%;
-    letter-spacing: 2px;
-    color: #3a3a3a;
-}
-
-#nav-links,
-#logo {
-    line-height: 50px;
-}
-
-#nav-links li {
-    list-style-type: none;
-}
-
-#nav-links a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* Indicator showing user what page user is on */
-
-#nav-links a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
 /* Hero image */
 
 #hero-container {
@@ -88,6 +32,7 @@ header a {
     width: 100%;
     overflow: hidden;
     position: relative;
+    margin-top: 78px;
 }
 
 /* Text changed to off-white for readability */
@@ -461,7 +406,7 @@ audio {
     display: block;
     margin: 0 auto;
     width: 90%;
-  }
+}
 
 #sessions-intro h2 {
     text-align: center;
@@ -602,7 +547,7 @@ audio {
     border-radius: 5px
 }
 
-.academy-signup-form > h2 {
+.academy-signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
