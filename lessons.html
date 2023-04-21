@@ -37,9 +37,9 @@
         </div>
     </header>
     <main>
-        <section id="hero-container" aria-labelledby="lessons-header-image">
+        <div id="hero-container">
             <div id="lessons-header-image"></div>
-        </section>
+        </div>
         <section id="instruments-info" aria-labelledby="lessons-title">
             <div id="lessons-intro">
                 <h2 id="lessons-title">Want to Learn?</h2>
@@ -60,7 +60,7 @@
                     <div id="banjo-img" class="lessons-img-style"></div>
                 </div>
                 <div class="instruments-text-background">
-                    <div class="info-text-background text-outline">
+                    <div>
                         <h2 class="instrument-heading">The Banjo</h2>
                         <p>
                             In traditional Irish music, the Irish Tenor Banjo originally gained popularity in the 1920s.
@@ -94,7 +94,7 @@
                     <div id="mandolin-img" class="lessons-img-style"></div>
                 </div>
                 <div class="instruments-text-background">
-                    <div class="info-text-background text-outline">
+                    <div>
                         <h2 class="instrument-heading">The Mandolin</h2>
                         <p>
                             The mandolin dates back to the Middle Ages and is the ancestor of the lute. The Neapolitan
@@ -129,7 +129,7 @@
                     <div id="fiddle-img" class="lessons-img-style"></div>
                 </div>
                 <div class="instruments-text-background">
-                    <div class="info-text-background text-outline">
+                    <div>
                         <h2 class="instrument-heading">The Fiddle</h2>
                         <p>
                             One of the most widely used instruments in contemporary traditional Irish music is the violin, or
@@ -164,7 +164,7 @@
                     <div id="guitar-img" class="lessons-img-style"></div>
                 </div>
                 <div class="instruments-text-background">
-                    <div class="info-text-background text-outline">
+                    <div>
                         <h2 class="instrument-heading">The Guitar</h2>
                         <p>
                             Although not a strictly traditional Irish instrument, the guitar is quite a popular choice when it comes
@@ -197,7 +197,7 @@
                     <div id="piano-img" class="lessons-img-style"></div>
                 </div>
                 <div class="instruments-text-background">
-                    <div class="info-text-background text-outline">
+                    <div>
                         <h2 class="instrument-heading">The Piano</h2>
                         <p>
                             From the 1920s onwards, the piano was used as an accompaniment instrument in recordings of traditional Irish music. 
@@ -216,11 +216,10 @@
                         <p class="padding-for-audio">
                             Tutor: <strong>Mark Dunne</strong>
                         </p>
-                        <audio controls muted>
+                        <audio src="assets/audio/pianoaudio.mp3" type="audio/mpeg" controls muted>
                             <p>
                                 Your browser does not support this audio. Click <a href="assets/audio/pianoaudio.mp3" download>here</a> to download the audio!
                             </p>
-                            <source src="assets/audio/pianoaudio.mp3" type="audio/mpeg">
                         </audio>
                         <a href="signup.html" class="signup-button signup-mobile-position">Sign Up</a>
                     </div>
@@ -245,7 +244,7 @@
             <li>
                 <a href="http://instagram.com" target="_blank" rel="noopener"
                     aria-label="Visit our Instagram page (opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></i></a>
+                        class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
         <div id="contact-info">
@@ -264,7 +263,7 @@
     <!-- font awesome script-->
     <script src="https://kit.fontawesome.com/324d5be901.js" crossorigin="anonymous"></script>
     <!-- nav bar script -->
-    <script type="text/javascript" src="assets/JavaScript/script.js"></script>
+    <script src="assets/JavaScript/script.js"></script>
 </body>
 
 </html>
