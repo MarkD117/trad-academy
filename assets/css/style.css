@@ -25,6 +25,73 @@ h2 {
     color: #3a3a3a;
 }
 
+/* nav section */
+
+header {
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e8e8e8;
+    padding: 28px 12%;
+    transition: all .50s ease;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: #3a3a3a;
+    font-size: 120%;
+    font-weight: 700;
+    padding: 5px 0;
+    margin: 0 50px;
+    transition: all .50s ease;
+}
+
+.navbar a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.navbar a.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+#menu-icon {
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+#menu-icon i {
+    margin-right: 20px;
+}
+
 /* Hero image */
 
 #hero-container {
