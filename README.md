@@ -44,6 +44,72 @@ Three separate text fonts were used for the site. All fonts were sourced from [g
 - As a new site user, I'd like to sign up with as few clicks as possible so that I don't waste my time.
 - As a new site user, I'd like to access social media links easily, so that I can learn more about the product.
 
+## Wireframes
+During the planning stages, I  created wireframes for all pages of the site. I first did a rough sketch of my initial layout idea and then used [Balsamiq](https://balsamiq.com/wireframes) to design the digital wireframes. All wireframes can be seen below.
+
+### Home Page Wireframes
+
+<details>
+<summary>Click to see the Home Page Wireframes</summary>
+
+| Size | Screenshot |
+| --- | --- |
+| Desktop | ![screenshot](documentation/wireframes/home-page-desktop.png) |
+| Mobile | ![screenshot](documentation/wireframes/home-page-mobile.png) |
+| Sketch | ![screenshot](documentation/wireframes/home-page-sketch.jpg) |
+
+</details>
+
+### Lessons Page Wireframes
+
+<details>
+<summary>Click to see Lessons Page Wireframes</summary>
+
+| Size | Screenshot |
+| --- | --- |
+| Desktop | ![screenshot](documentation/wireframes/lessons-page-desktop.png) |
+| Mobile | ![screenshot](documentation/wireframes/lessons-page-mobile.png) |
+| Sketch | ![screenshot](documentation/wireframes/lessons-page-sketch.jpg) |
+
+</details>
+
+### Sessions Page Wireframes
+
+<details>
+<summary>Click to see the Course Info Section Wireframes</summary>
+
+| Size | Screenshot |
+| --- | --- |
+| Desktop | ![screenshot](documentation/wireframes/sessions-page-desktop.png) |
+| Mobile | ![screenshot](documentation/wireframes/sessions-page-mobile.png) |
+| Sketch | ![screenshot](documentation/wireframes/sessions-page-sketch.jpg) |
+
+</details>
+
+### Sign-Up Page Wireframes
+
+<details>
+<summary>Click to see the Flight Support Section Wireframes</summary>
+
+| Size | Screenshot |
+| --- | --- |
+| Desktop | ![screenshot](documentation/wireframes/signup-page-desktop.png) |
+| Mobile | ![screenshot](documentation/wireframes/signup-page-mobile.png) |
+| Sketch | ![screenshot](documentation/wireframes/signup-page-sketch.jpg) |
+
+</details>
+
+### Confirmation Page Wireframes
+
+<details>
+<summary>Click to see the Sign-Up Form Section Wireframes</summary>
+
+| Size | Screenshot |
+| --- | --- |
+| Desktop | ![screenshot](documentation/wireframes/confirmation-page-desktop.png) |
+| Mobile | ![screenshot](documentation/wireframes/confirmation-page-mobile.png) |
+
+</details>
 
 ## Features
 
