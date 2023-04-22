@@ -632,8 +632,7 @@ audio {
     margin-bottom: 20px;
 }
 
-.user-input,
-select {
+.user-input, select {
     background: transparent;
     color: #fafafa;
     width: 100%;

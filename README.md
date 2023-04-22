@@ -238,6 +238,20 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 
     ![confirmation-page screenshot](documentation/confirmation-page.png)
 
+## Future Features
+
+- Wider Instrument Selection
+    - In the future, I would like to add more instruments to the lessons page to broaden the user audience. With a wider selection of instruments, the site becomes more accessible to other groups of people.
+
+- More Instrument Images
+    - I would like to add more images to the instrument section and possibly implement a feature that you can scroll through different types of images of the same instruments to get more detailed look.
+
+- Meet the Team page
+    - I would like to add a page that shows all of the music tutors, gives a bit of information about them and lets the user see/hear them play. Videos of the tutors introducing themselves and playing music together could also be added.
+
+- More info about Lesson plans
+    - I would like to have more information about the lessons. This can include a breakdown of the syllabus, class times, location etc. I would like to implement this to give the user more information about the lessons provided from the Academy.
+
 ## Testing
 
 
@@ -247,4 +261,3 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 ## Credits
 
 
-## Future Features
