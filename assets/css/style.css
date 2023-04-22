@@ -795,12 +795,15 @@ select:hover {
         top: 275px;
     }
 
-    #banjo-div, #fiddle-div, #piano-div {
+    #banjo-div,
+    #fiddle-div,
+    #piano-div {
         display: flex;
         align-items: center;
     }
 
-    #mandolin-div, #guitar-div {
+    #mandolin-div,
+    #guitar-div {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
@@ -819,7 +822,7 @@ select:hover {
         color: #fafafa;
         margin-top: 35px;
     }
-    
+
     #contact-info p {
         padding: 4px;
         margin-bottom: 4px;
@@ -857,7 +860,7 @@ select:hover {
 
 
 @media screen and (min-width: 1000px) {
-    
+
     #hero-container {
         height: 600px;
     }
@@ -871,7 +874,8 @@ select:hover {
         width: 80%;
     }
 
-    #about-heading .info-text-background, #why-learn-heading .info-text-background  {
+    #about-heading .info-text-background,
+    #why-learn-heading .info-text-background {
         display: flex;
         align-items: center;
     }
@@ -881,7 +885,7 @@ select:hover {
         flex-direction: row-reverse;
         align-items: center;
     }
-    
+
     #academy-info img {
         border-radius: 10px;
     }
@@ -927,7 +931,7 @@ select:hover {
     .info-text-background {
         padding-bottom: 0;
     }
-    
+
     #lessons-intro {
         width: 60%;
         padding-bottom: 30px;
@@ -945,16 +949,16 @@ select:hover {
         width: 60%;
         margin-bottom: 40px;
     }
-    
+
 }
 
 @media screen and (min-width: 1200px) {
-    
+
     audio {
-        width: 70%; 
+        width: 70%;
         margin-left: 30px;
     }
-    
+
     .audio-signup-container {
         display: flex;
         align-items: center;
@@ -985,19 +989,19 @@ select:hover {
     #banjo-img {
         background: url('../images/banjoimagemediaq.jpg') no-repeat center center;
     }
-    
+
     #mandolin-img {
         background: url('../images/mandolinimagemediaq.jpg') no-repeat center center;
     }
-    
+
     #fiddle-img {
         background: url('../images/fiddleimagemediaq.jpg') no-repeat center center;
     }
-    
+
     #guitar-img {
         background: url('../images/guitarimagemediaq.jpg') no-repeat center center;
     }
-    
+
     #piano-img {
         background: url('../images/pianoimagemediaq.jpg') no-repeat center center;
     }
