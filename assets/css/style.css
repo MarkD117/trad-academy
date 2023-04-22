@@ -954,7 +954,7 @@ option {
         margin: 0 auto;
     }
 
-    /* .instrument-img-container {
+    .instrument-img-container {
         width: 375px;
         height: 375px;
     }
@@ -977,5 +977,5 @@ option {
     
     #piano-img {
         background: url('../images/pianoimagemediaq.jpg') no-repeat center center;
-    } */
+    }
 }
