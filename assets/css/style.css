@@ -381,6 +381,8 @@ footer {
     border-radius: 50%;
 }
 
+/* Setting instrument images */
+
 #banjo-img {
     background: url('../images/banjoimage.jpg') no-repeat center center;
 }
@@ -418,6 +420,8 @@ footer {
 strong {
     font-weight: 700;
 }
+
+/* Stying audio player */
 
 audio {
     margin: 0 auto;
@@ -488,6 +492,8 @@ audio {
 #sessions-intro p {
     color: #3a3a3a;
 }
+
+/* Flip cards container for positioning */
 
 #flip-cards-position {
     display: flex;
@@ -578,6 +584,8 @@ audio {
     color: #fafafa;
     padding: 10px;
 }
+
+/* Youtube video iframe */
 
 #trad-session-video {
     padding-top: 15px;
@@ -699,6 +707,8 @@ select:hover {
     text-align: center;
 }
 
+/* Home link is a bright green which makes it more visable against the dark background */
+
 #home-link {
     color: #00ff37;
     text-decoration: none;
@@ -716,6 +726,8 @@ select:hover {
 
 /* Media queries */
 
+/* Media query for nav bar for 1280px screens and below */
+
 @media (max-width: 1280px) {
     header {
         padding: 14px 2%;
@@ -727,6 +739,8 @@ select:hover {
         margin: 0 20px;
     }
 }
+
+/* Media query for nav bar for 1090px screens and below */
 
 @media (max-width: 1090px) {
     #menu-icon {
@@ -776,6 +790,8 @@ select:hover {
     }
 }
 
+/* Media query for screen sizes 650px and above */
+
 @media screen and (min-width: 650px) {
 
     #trad-info-heading .info-img-container,
@@ -787,6 +803,8 @@ select:hover {
     #why-learn-heading img {
         height: 500px;
     }
+
+    /* Heading spacer height adjusted with image size */
 
     #trad-info-heading .heading-spacer {
         top: 275px;
@@ -837,7 +855,11 @@ select:hover {
     }
 }
 
+/* Media query for screen sizes 820px and above */
+
 @media screen and (min-width: 820px) {
+
+    /* Hero and header images changed to larger sizes due to 820px being the break point */
 
     #hero-image {
         height: 600px;
@@ -859,6 +881,7 @@ select:hover {
 
 }
 
+/* Media query for screen sizes 1000px and above */
 
 @media screen and (min-width: 1000px) {
 
@@ -917,6 +940,8 @@ select:hover {
         width: 450px;
     }
 
+    /* Heading spacers adjusted due to img container size change */
+
     #about-heading .heading-spacer {
         top: 175px;
     }
@@ -953,7 +978,11 @@ select:hover {
 
 }
 
+/* Media query for screen sizes 1200px and above */
+
 @media screen and (min-width: 1200px) {
+
+    /* Places the signup button next to the audio element */
 
     audio {
         width: 70%;
@@ -971,6 +1000,8 @@ select:hover {
     }
 }
 
+/* Media query for screen sizes 1500px and above */
+
 @media screen and (min-width: 1500px) {
 
     #academy-info {
@@ -986,6 +1017,8 @@ select:hover {
         width: 80%;
         margin: 0 auto;
     }
+
+    /* Instrument image sizes increased for space efficency */
 
     .instrument-img-container {
         width: 375px;
