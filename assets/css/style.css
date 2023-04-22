@@ -451,7 +451,9 @@ audio {
 }
 
 .signup-button:hover {
-    background: #78C088;
+    background: #fafafa;
+    color: #ebb42c;
+    border: #ebb42c 2px solid;
     text-decoration: none;
 }
 
