@@ -649,7 +649,7 @@ option {
 }
 
 .user-input:hover {
-    border-color: #78c088;
+    border-color: #ebb42c;
 }
 
 .form-signup-button {
@@ -658,14 +658,14 @@ option {
     padding: 15px 30px 15px 30px;
     text-align: center;
     font-size: 100%;
-    background-color: #78c088;
+    background-color: #ebb42c;
     color: #fafafa;
     display: block;
 }
 
 .form-signup-button:hover {
     background-color: #fafafa;
-    color: #78c088;
+    color: #ebb42c;
 }
 
 /* Confirmation page */
@@ -695,7 +695,7 @@ option {
 }
 
 #home-link {
-    color: #78c088;
+    color: #00ff37;
     text-decoration: none;
 }
 
