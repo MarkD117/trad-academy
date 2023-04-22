@@ -925,24 +925,12 @@ option {
     
 }
 
-@media screen and (min-width: 1500px) {
-
-    #academy-info {
-        width: 60%;
-    }
-
-    #instruments-info {
-        width: 80%;
-        margin: 0 auto;
-    }
+@media screen and (min-width: 1200px) {
     
-    
-
     audio {
         width: 70%; 
         margin-left: 30px;
     }
-    
     
     .audio-signup-container {
         display: flex;
@@ -953,15 +941,22 @@ option {
     .signup-button {
         margin-top: 0;
     }
-    
-    .signup-button:hover {
-        background: #78C088;
-        text-decoration: none;
+}
+
+@media screen and (min-width: 1500px) {
+
+    #academy-info {
+        width: 60%;
+    }
+
+    #instruments-info {
+        width: 80%;
+        margin: 0 auto;
     }
 
     /* .instrument-img-container {
-        width: 400px;
-        height: 400px;
+        width: 375px;
+        height: 375px;
     }
 
     #banjo-img {
