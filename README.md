@@ -148,7 +148,7 @@ During the planning stages, I  created wireframes for all pages of the site. I f
         
 - Quotes Section
 
-    - Below the academy info section is the quote section. This section consists of two `blockquotes` styled with the deep yellow accent. The quotes are fully responsive and change their size with both mobile and desktop layouts. They provide users interesting insights into Irish music.
+    - Below the academy info section is the quote section. This section consists of two `blockquotes` styled with the deep yellow accent and italicized font. The quotes are fully responsive and change their size with both mobile and desktop layouts. They provide users interesting insights into Irish music.
     
         ![quotes screenshot](documentation/home-page-quotes.png)
 
@@ -212,7 +212,31 @@ During the planning stages, I  created wireframes for all pages of the site. I f
         
         ![iframe-mobile screenshot](documentation/iframe-mobile.png)
     
+#### **Sign Up Page**
 
+- The sign up page features a form that allows the user to enter their personal details and select an instrument from a drop down menu. The form consists of an heading of 'Let's Get You Playing' with a music icon. There are two text inputs, an email input, a dropdown menu and a submit button (On hover, the submit button text and background colours will reverse.). All of the required input is formatted in a clear and concise manner. There is minimal information for the user to enter to sign up which provides a good user experience. The form has a slightly translucent grey background and is laid on top of a background image. The warm image of the guitar provide the user with a sense of calmness and reassurance whilst signing up. The sign up page is responsive and will change size and location depending on screen size.
+
+- Desktop
+
+    ![signup-desktop screenshot](documentation/signup-page-desktop.png)
+        
+- Mobile
+        
+    ![signup-mobile screenshot](documentation/signup-page-mobile.png)
+
+- Submit Button Hover Effect
+
+    ![submit-default screenshot](documentation/submit-default.png) ![submit-default screenshot](documentation/submit-hover.png)
+
+- Dropdown Menu
+
+    ![dropdown-menu screenshot](documentation/dropdown-menu.png)
+
+#### **Confirmation Page**
+
+- Upon clicking the 'Let's Play' submit button for the form on the sign up page, the user will be automatically redirected to the confirmation page which will provide them with a short messaging thanking them for signing up with the Trad Academy. After a period of 10 seconds, the site will automatically return the user to the home page. The user is informed of this process. In the event that they are not brought back to the home page, there is a link that the user can click that will manually return them to the home page. The text for the redirect link is a bright green as it makes it easy to see against the dark background.
+
+    ![confirmation-page screenshot](documentation/confirmation-page.png)
 
 ## Testing
 
