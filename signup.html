@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Trad music adacemy for beginners and pros to learn Irish traditional music">
     <meta name="keywords" content="trad, music, learn music, music lessons, ireland,">
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png" >
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Trad Academy</title>
 </head>
 
 <body>
     <header>
+        <!-- Nav section -->
         <a href="index.html" class="logo">
             <img src="assets/images/logoimage.png" alt="Trad Academy logo">
         </a>
@@ -37,15 +38,20 @@
         </div>
     </header>
     <main>
+        <!-- Form -->
         <section class="form-container" aria-labelledby="signup-form">
             <form method="GET" action="confirmation.html" class="academy-signup-form">
+                <!-- Form heading -->
                 <h2 id="signup-form">Let's get you playing! <i class="fa-solid fa-music"></i></h2>
+                <!-- Name inputs -->
                 <label for="fname">First Name</label>
                 <input id="fname" name="first_name" type="text" class="user-input" required>
                 <label for="lname">Last Name</label>
                 <input id="lname" name="last_name" type="text" class="user-input" required>
+                <!-- Email input -->
                 <label for="email">Email Address</label>
                 <input type="email" id="email" name="email_address" class="user-input" required>
+                <!-- Drop down menu -->
                 <label for="instrument">Choose an Instrument</label>
                 <select name="instrument" id="instrument">
                     <option value="banjo">Banjo</option>
@@ -54,10 +60,12 @@
                     <option value="guitar">Guitar</option>
                     <option value="piano">Piano</option>
                 </select>
+                <!-- Signup button -->
                 <input class="form-signup-button" type="submit" value="Let's Play!">
             </form>
         </section>
     </main>
+    <!-- Footer -->
     <footer>
         <ul class="social-networks">
             <li>
@@ -78,6 +86,7 @@
                         class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
+        <!-- Contact section -->
         <div id="contact-info">
             <p>
                 Contact us
