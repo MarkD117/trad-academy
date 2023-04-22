@@ -52,7 +52,7 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 <details>
 <summary>Click to see the Home Page Wireframes</summary>
 
-| Size | Screenshot |
+| Type | Image |
 | --- | --- |
 | Desktop | ![screenshot](documentation/wireframes/home-page-desktop.png) |
 | Mobile | ![screenshot](documentation/wireframes/home-page-mobile.png) |
@@ -65,7 +65,7 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 <details>
 <summary>Click to see Lessons Page Wireframes</summary>
 
-| Size | Screenshot |
+| Type | Image |
 | --- | --- |
 | Desktop | ![screenshot](documentation/wireframes/lessons-page-desktop.png) |
 | Mobile | ![screenshot](documentation/wireframes/lessons-page-mobile.png) |
@@ -78,7 +78,7 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 <details>
 <summary>Click to see the Course Info Section Wireframes</summary>
 
-| Size | Screenshot |
+| Type | Image |
 | --- | --- |
 | Desktop | ![screenshot](documentation/wireframes/sessions-page-desktop.png) |
 | Mobile | ![screenshot](documentation/wireframes/sessions-page-mobile.png) |
@@ -91,7 +91,7 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 <details>
 <summary>Click to see the Flight Support Section Wireframes</summary>
 
-| Size | Screenshot |
+| Type | Image |
 | --- | --- |
 | Desktop | ![screenshot](documentation/wireframes/signup-page-desktop.png) |
 | Mobile | ![screenshot](documentation/wireframes/signup-page-mobile.png) |
@@ -104,7 +104,7 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 <details>
 <summary>Click to see the Sign-Up Form Section Wireframes</summary>
 
-| Size | Screenshot |
+| Type | Image |
 | --- | --- |
 | Desktop | ![screenshot](documentation/wireframes/confirmation-page-desktop.png) |
 | Mobile | ![screenshot](documentation/wireframes/confirmation-page-mobile.png) |
@@ -113,16 +113,57 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 
 ## Features
 
+### Existing Features
 
+#### **Navigation Menu**
 
+* The Trad Academy site is a multi page site with four main accessible pages. These four pages can be easily accessed at the top of the site. The navigation menu is responsive to both mobile and desktop layouts.
 
-### Site Goals
+- Nav Bar
 
-### Design Choices
+    - Above 1090px a centered nav bar is displayed at the top of the site with the logo placed to the left. This nav bar is fixed so the user can access it at all time preventing the need to scroll back to the top of the page. There are four options that link to the other pages of the site. The text is jet grey on a platinum background with a good contrast ratio making it easy for the user to see. An underline will appear on the page that the user is currently on. When the user hovers their cursor over a page link, an underline will also appear. Above 1280px the logo will center itself in the space bewteen the left of the nav bar and the links to alleviate a large gap.
 
-### User Stories
+        ![navbar screenshot](documentation/navbar.png)
 
-### Wireframes
+- Side Menu
+
+    - Below 1090px the navbar options will dissapear and a hamburger icon will appear at the top right of the site navigation. Once clicked a side menu appears from the right of the screen giving the user the same four options that are shown on the nav bar. This side menu is a jet grey box with white text for each of the page links keeping to the style of the alternating white and grey colour pallet. An off-white pill like background will appear on the page link that the user is currently on. The text will also change to grey. Subsequently, when the user hovers over any of the page links, the previously mentioned style will be applied. When the user clicks one of the page options, they will be redirected to that page and the side menu will close. Alternatively, the hamburger icon can be clicked again to close the side menu.
+
+        ![side-menu screenshot](documentation/side-menu.png)
+
+#### **Home Page**
+
+- Academy Info Section
+
+    - The Academy info section consists of an image with a title next to relative text. The title is placed in the center of the image and the image has been darkened so that the user can read it clearly. The heading is placed inside the image as the image on its own looked out of place. The heading ties it to the text content continuing the flow of the page. There is a white background placed on the text which again, provides a subtle contrast against the platinum base colour. The academy info section is responsive to both mobile and desktop layouts. This can be seen in the screenshot below.
+    
+    - Desktop
+
+        ![academy-info-desktop screenshot](documentation/academy-info-dekstop.png)
+        
+    - Mobile
+        
+        ![academy-info-mobile screenshot](documentation/academy-info-mobile1.png)
+        ![academy-info-mobile screenshot](documentation/academy-info-mobile2.png)
+        
+- Quotes Section
+
+    - Below the academy info section is the quote section. This section consists of two `blockquotes` styled with the deep yellow accent. The quotes are fully responsive and change their size with both mobile and desktop layouts. They provide users interesting insights into Irish music.
+    
+        ![quotes screenshot](documentation/home-page-quotes.png)
+
+- Site footer
+
+    - At the bottom of the site there is the site footer. The footer consists of four social media links and contact information. The footer is responsive to both mobile and desktop layouts. Below 650px the contact information will stack preventing crowding of elements.
+    
+    - Desktop
+
+        ![desktop-footer screenshot](documentation/desktop-footer.png)
+        
+    - Mobile
+        
+        ![mobile-footer screenshot](documentation/mobile-footer.png)
+        
 
 
 ## Testing
