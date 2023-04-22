@@ -154,7 +154,7 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 
 - Site footer
 
-    - At the bottom of the site there is the site footer. The footer consists of four social media links and contact information. The footer is responsive to both mobile and desktop layouts. Below 650px the contact information will stack preventing crowding of elements.
+    - At the bottom of the site, the footer consists of four social media links and contact information. The footer is responsive to both mobile and desktop layouts. Below 650px the contact information will stack preventing crowding of elements.
     
     - Desktop
 
@@ -163,7 +163,55 @@ During the planning stages, I  created wireframes for all pages of the site. I f
     - Mobile
         
         ![mobile-footer screenshot](documentation/mobile-footer.png)
+
+#### **Lessons Page**
+
+- Audio Player & Sign Up Button
+
+    - The sessions page features an audio player that allows the user to listen to the instrument they are reading about. The audio is intuitive for the user and hearing the instrument being played gives the user a positive experience which increases their engagement with the site. The audio feature can be controlled by the user and is muted by default to prevent the audio playing forcibly.
+
+    - If the user decides that they like what they see and hear that my be enticed the click the big shiny sign up button next to the audio player. Once pressed, this button will automatically redirect the user to the sign up page. The sign up button is conveniently placed on every instrument section. If the user decides that they have found their true calling after reading about or listening to any of the instruments, they can instantly go to the sign up page with minimal clicks.
+   
+        ![audio-signup screenshot](documentation/audio-signup-elements.png)
+
+    - Both of these elements are also responsive. At screen sizes 1200px and below, the sign up button moves below the audio player for the most efficent space layout
+
+        ![audio-signup-responsive screenshot](documentation/audio-signup-responsive.png)
+
+#### **Sessions Page**
+
+- Sessions Flip Cards
+
+    - The sessions page consists of four flip cards. Images of various bar/trad sesh locations are on the front face of the flip card, as well as the various midlands locations in which the sessions are held. Again, the image is darkened to accentuate the heading and make it clearer for the user. When the user hovers over a card with their cursor, it will rotate 180° and show the back of the flip card. 
+    
+    - The back of the flip card consists of the location, days and times the particular session of that location is on. This simple but intuitive design is again provides the user with minimal clicks and allows easy access to the information. The cards are also responsive and will change their layout depending on the screen size. Below you can see the front, back, transition and layout of the Session flip cards.
+
+    - The flip cards were inspired by the W3Schools [flip card](https://www.w3schools.com/howto/howto_css_flip_card.asp) how to.
+
+    - Desktop
+
+        ![flip-cards-desktop screenshot](documentation/flip-cards-desktop.png)
         
+    - Mobile
+        
+        ![flip-cards-mobile screenshot](documentation/flip-cards-mobile.png)
+    
+    - Transition
+
+        ![flip-cards-transition screenshot](documentation/flip-cards-transition.png)
+
+- Session Video
+
+    - Below the flip cards is a youtube video embedded with an iframe. The iframe source is set to a video called a [Mad Irish Trad Sesh](https://www.youtube.com/embed/Zn28oeOFfxo). This video demonstrates to the user what a typical Irish trad sessions is really like. The pleasant atmosphere of the video may encourage the user to sign up for lessons or to go to the trad sessions, furher increasing their interativity with the site. The iframe is also responsive to mobile and desktop layouts.
+
+    - Desktop
+
+        ![iframe-desktop screenshot](documentation/iframe-desktop.png)
+        
+    - Mobile
+        
+        ![iframe-mobile screenshot](documentation/iframe-mobile.png)
+    
 
 
 ## Testing
