@@ -977,6 +977,11 @@ select:hover {
         width: 60%;
     }
 
+    .quote {
+        font-size: 100%;
+        width: 50%;
+    }
+
     #instruments-info {
         width: 80%;
         margin: 0 auto;
