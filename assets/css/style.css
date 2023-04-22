@@ -829,16 +829,33 @@ option {
     }
 }
 
-@media screen and (min-width: 1000px) {
-    
-    #hero-container {
-        height: 600px;
-    }
+@media screen and (min-width: 820px) {
 
     #hero-image {
         height: 600px;
         width: 100%;
         background: url('../images/heroimagedesktop.jpg') no-repeat center center;
+    }
+
+    #lessons-header-image {
+        height: 600px;
+        width: 100%;
+        background: url('../images/lessonsheaderimagedesktop.jpg') no-repeat center center;
+    }
+
+    #sessions-header-image {
+        height: 600px;
+        width: 100%;
+        background: url('../images/sessionsheaderimagedesktop.jpg') no-repeat center center;
+    }
+
+}
+
+
+@media screen and (min-width: 1000px) {
+    
+    #hero-container {
+        height: 600px;
     }
 
     #site-subheading {
@@ -907,21 +924,9 @@ option {
         padding-bottom: 0;
     }
     
-    #lessons-header-image {
-        height: 600px;
-        width: 100%;
-        background: url('../images/lessonsheaderimagedesktop.jpg') no-repeat center center;
-    }
-    
     #lessons-intro {
         width: 60%;
         padding-bottom: 30px;
-    }
-    
-    #sessions-header-image {
-        height: 600px;
-        width: 100%;
-        background: url('../images/sessionsheaderimagedesktop.jpg') no-repeat center center;
     }
 
     #sessions-intro {
