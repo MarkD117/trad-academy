@@ -828,6 +828,8 @@ select:hover {
         width: 47%;
     }
 
+    /* Places contact info onto one line */
+
     #contact-info {
         font-size: 120%;
         display: flex;
