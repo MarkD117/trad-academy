@@ -889,6 +889,18 @@ option {
         width: 450px;
     }
 
+    #about-heading .heading-spacer {
+        top: 175px;
+    }
+
+    #trad-info-heading .heading-spacer {
+        top: 175px;
+    }
+
+    #why-learn-heading .heading-spacer {
+        top: 175px;
+    }
+
     .info-text-background {
         padding-bottom: 0;
     }
