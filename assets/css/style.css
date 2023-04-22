@@ -652,6 +652,10 @@ option {
     border-color: #ebb42c;
 }
 
+select:hover {
+    border-color: #ebb42c;
+}
+
 .form-signup-button {
     margin: 10px auto 0 auto;
     border-radius: 25px;
