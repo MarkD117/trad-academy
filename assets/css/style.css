@@ -325,6 +325,7 @@ footer {
 #contact-info p {
     padding: 4px;
     margin-bottom: 4px;
+    text-decoration: none;
 }
 
 /* Lessons page */
