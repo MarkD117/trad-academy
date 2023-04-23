@@ -13,7 +13,7 @@ The live project can be accessed [here](https://markd117.github.io/trad-academy/
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [Credits](#credits)
-* [acknowledgements](#acknowledgements)
+* [Acknowledgements](#acknowledgements)
 
 
 ## UI/UX 
