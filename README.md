@@ -5,7 +5,15 @@ The live project can be accessed [here](https://markd117.github.io/trad-academy/
 
 ![Screenshot](documentation/responsive-image.png)
 
-## Index
+## Index – Table of Contents
+* [UI/UX](#UI/UX)
+* [Wireframes](#wireframes)
+* [Features](#features)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [acknowledgements](#acknowledgements)
 
 
 ## UI/UX 
@@ -258,7 +266,7 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 - Payment Method
     - As users will be signing up to various lesson plans, I would like to implement an online payment system so that users can pay for lessons online. This could also add recurring billing if the user continues with the lessons.
 
-## Tools & Technologies Used
+## Technologies Used
 
 - HTML used to create main site content
 - CSS used designing and styling the layout of the site
@@ -510,3 +518,9 @@ The live link can be found [here](https://markd117.github.io/trad-academy/)
 | [Youtube](https://www.youtube.com/watch?v=Zn28oeOFfxo) | Video | Trad session video |
 | [Youtube](https://youtu.be/ZrGVI430pi0) | Video | Instrument audio recordings |
 | [coolers.io](https://coolors.co/e8e8e8-fafafa-3a3a3a-ebb42c) | Colours | Colour pallet used for site |
+
+## Acknowledgements 
+
+I would like to thank my mentor Chris Quinn, my cohort mentor Alan Bushell, the Code Institute team and the Slack community.  
+
+[Back to top](#trad-academy)
