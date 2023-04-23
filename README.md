@@ -414,6 +414,7 @@ During the planning stages, I  created wireframes for all pages of the site. I f
     ![ios-audio-signup screenshot](documentation/ios-audio-signup.png) ![android-audio-signup screenshot](documentation/android-audio-signup.jpg)
     
     - The audio showed as 00:00 and was unable to play in the format below:
+
         ``` HTML
             <div class="audio-signup-container">
                 <audio controls muted>
@@ -427,7 +428,7 @@ During the planning stages, I  created wireframes for all pages of the site. I f
             </div>
          ```
 
-         I removed the source element as per a conversation with my mentor. After that was removed, the audio showed as error.
+    - I removed the source element as per a conversation with my mentor. After that was removed, the audio showed as error.
 
          ``` HTML
             <div class="audio-signup-container">
@@ -440,7 +441,7 @@ During the planning stages, I  created wireframes for all pages of the site. I f
                 <a href="signup.html" class="signup-button signup-mobile-position">Sign Up</a>
             </div>
         ```
-        Interestingly enough, the piano audio works fine (Code shown below). I believe it may have something to do with the audio files themselves however it is odd as the audio works fine on browsers as well as on android.
+    - Interestingly enough, the piano audio works fine (Code shown below). I believe it may have something to do with the audio files themselves however it is odd as the audio works fine on browsers as well as on android.
 
         ``` HTML
             <div class="audio-signup-container">
@@ -457,6 +458,13 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 - Another bug is also to do with iOS can be seen above. The sign up button extends onto another line. I'm unsure as to what causes this as again, the button displays correctly on all tested browsers as well as Android. This is something I will have to research into further.
 
 ## Deployment
+
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+- In the [GitHub repository](https://github.com/MarkD117/trad-academy), navigate to the Settings tab 
+- From the source section drop-down menu, select the **Main** Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://markd117.github.io/trad-academy/)
 
 
 ## Credits
