@@ -271,6 +271,88 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 
 ### Code Validation
 
+- [HTML W3C Validator](https://validator.w3.org) was used to validate the html code. No errors were found.
+
+    - index.html Validation
+   
+        ![index.html-validation screenshot](documentation/index.html-validator.png)
+
+    - lessons.html Validation
+    
+        ![lessons.html-validation screenshot](documentation/lessons.html-validator.png)
+
+    - sessions.html Validation
+   
+        ![sessions.html-validation screenshot](documentation/sessions.html-validator.png)
+
+    - signup.html Validation
+    
+        ![signup.html-validation screenshot](documentation/signup.html-validator.png)
+
+    - confirmation.html Validation
+    
+        ![confirmation.html-validation screenshot](documentation/confirmation.html-validator.png)
+
+
+- [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files. No errors were found.
+
+    - style.css Validation
+    
+        ![style.css-validation screenshot](documentation/style.css-validator.png)
+
+### Browser Compatibility
+
+- The site has been tested on the following browsers:
+    - Google Chrome
+    - Mozilla FireFox
+    - Microsoft Edge
+    - iOS (Mobile)
+    - Android
+
+### Testing and Results
+
+#### **Navigation**
+
+| Item | Test | Expected Outcome | Result | 
+|--|--|--|--|
+| Logo | Clicking site logo | Returns to index.html | pass
+| Navbar | Hover & active classes | Show underline | pass
+| Home nav link | Click home link | Redirects to home page | pass
+| Lessons nav link | Click lessons link | Redirects to lessons page | pass
+| Sessions nav link | Click sessions link | Redirects to sessions page | pass
+| Sign Up nav link | Click sign up link | Redirects to sign up page | pass
+| Nav section | Responsiveness Test 1 | Nav section resizes at 1280px | pass
+| Nav section | Responsiveness Test 2 | Nav side menu activates at 1090px | pass
+| Side Menu | Clicking hamburger icon | Opens / Closes side menu | pass
+| Side Menu | Clicking links | Redirects to other pages | pass
+| Side Menu | Hover & active classes | Changes background and text color | pass
+
+
+#### **Footer**
+| Item | Test | Expected Outcome | Result | 
+|--|--|--|--|
+| Contact info| Changing screen size | contact info stacks below 650px | pass
+
+#### **Home Page**
+
+| Item | Test | Expected Outcome | Result | 
+|--|--|--|--|
+| Hero image | Resizing screen | Image scales with different screen sizes | pass
+| Sub Heading | Resizing screen | Changes location at 1000px | pass
+| Academy Info section | Resizing screen | Images and text resize with different screen sizes | pass
+| Quote Section | Resizing screen | Quotes resize with different screen sizes | pass
+
+#### **Lessons Page**
+
+| Item | Test | Expected Outcome | Result | 
+|--|--|--|--|
+| Header image | Resizing screen | Image scales with different screen sizes | pass
+| Instruments Info Section | Resizing screen | Images and text scale with different screen sizes | pass
+| Audio Player | Playing, pausing, muting audio | controls will function as normally | pass
+| Signup Button | Clicking button | Redirects to signup.html | pass
+| Signup Button | hover | Swaps text and background colour. Yellow outline appears | pass
+| Signup Button & Audio Player | Resizing screen | Above 1200px button moves beside audio player | pass
+
 
 ## Deployment
 
