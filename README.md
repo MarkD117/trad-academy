@@ -23,7 +23,7 @@ For the design of the site, I wanted to go with something that was easy on eyes 
 
 If the user likes what they see, they can delve into the lessons page to learn about traditional Irish instruments in more detail and they can also hear them being played. Both of these pages are structured in a way that allows the user to see what they are reading about with an image, and get more context through the content beside it. The sessions page is aimed at people who are looking for a way of connecting with others through music. the structure of the sessions page is a simple layout of four flip cards which allow the user easy access to finding out where and when sessions take place. 
 
-Finally, the sign up page presents the user with a minimal amount of detail that has to be entered to contact the Trad Academy. The sessions page is structured in a way that allows the user to have quick access to all the information about sessions. Minimal clicks and immediate access is something that I wanted to implement as people can get frustrated if there is too many clicks or too much information to read. This is the same for the sign up page. The user has to enter very minimal information which allows them to have a good user experience.
+The sessions page is structured in a way that allows the user to have quick access to all the information about sessions. Finally, the sign up page presents the user with a minimal amount of detail that has to be entered to contact the Trad Academy. Minimal clicks and immediate access is something that I wanted to implement as people can get frustrated if there is too many clicks or too much information to read. This is the same for the sign up page. The user has to enter very minimal information which allows them to have a good user experience.
 
 ### Colour Scheme
 Due to the nature of most musical instruments being simple in colour, I wanted to replicate this idea with the colour scheme of the website. A warm platinum colour is used for the main body of the site. A jet grey and off-white were used as an alternation of text and background colours which contrasted well against each other. The off-white backgrounds also provide a subtle contrast between content and the platinum body colour. Finally, I used accents of a deep yellow that can be seen in the Trad Academy logo.
@@ -210,7 +210,7 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 
 - Session Video
 
-    - Below the flip cards is a youtube video embedded with an iframe. The iframe source is set to a video called a [Mad Irish Trad Sesh](https://www.youtube.com/embed/Zn28oeOFfxo). This video demonstrates to the user what a typical Irish trad sessions is really like. The pleasant atmosphere of the video may encourage the user to sign up for lessons or to go to the trad sessions, furher increasing their interativity with the site. The iframe is also responsive to mobile and desktop layouts.
+    - Below the flip cards is a youtube video embedded with an iframe. The iframe source is set to a video called a [Mad Irish Trad Sesh](https://www.youtube.com/embed/Zn28oeOFfxo). This video demonstrates to the user what a typical Irish trad sessions is really like. The pleasant atmosphere of the video may encourage the user to sign up for lessons or to go to the trad sessions, further increasing their interativity with the site. The iframe is also responsive to mobile and desktop layouts.
 
     - Desktop
 
@@ -307,6 +307,10 @@ During the planning stages, I  created wireframes for all pages of the site. I f
     - style.css Validation
     
         ![style.css-validation screenshot](documentation/style.css-validator.png)
+
+    - There is 1 warning which is due to a webkit extension for Safari support of the flip-card effect used on the home page.
+
+        ![style.css-validation-warning screenshot](documentation/style.css-validator-warning.png)
 
 ### Browser Compatibility
 
@@ -481,8 +485,8 @@ The live link can be found [here](https://markd117.github.io/trad-academy/)
 | Source | Item | Notes |
 | --- | --- | --- |
 | [Tahmid Ahmed](https://youtu.be/VRrEquQfh88) | Navbar | Creating responsive nav bar with hamburger menu |
-| [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/?child=first) | Site subheading | Design inspiration for sub heading |
-| [codepen,io](https://codepen.io/jimmycow/pen/LmjVaz) | Quotes | Design inspiration for quotes |
+| [Love Running](https://markd117.github.io/love-running/) | Site subheading | Design inspiration for sub heading |
+| [codepen.io](https://codepen.io/jimmycow/pen/LmjVaz) | Quotes | Design inspiration for quotes |
 | [W3Schools](https://www.w3schools.com/howto/howto_css_flip_card.asp) | Flip Cards | Flip cards template |
 | [medium.com](https://medium.com/front-end-weekly/absolute-centering-in-css-ea3a9d0ad72e) | Positioning | Position headings in center of images on home page |
 | [StackOverflow](https://stackoverflow.com/questions/17704539/css-getting-text-in-one-line-rather-than-two) | Positioning | Preventing text from overflowing onto another line |
@@ -515,6 +519,7 @@ The live link can be found [here](https://markd117.github.io/trad-academy/)
 | [Unsplash](https://unsplash.com/photos/QGPmWrclELg) | Image | Sessions header image |
 | [Unsplash](https://unsplash.com/photos/YCQFgqOzLmU) | Image | Sign up page background |
 | [Unsplash](https://unsplash.com/photos/8QrPJ3Kfie4) | Image | Confirmation page background |
+| [FL Studio](https://www.image-line.com/) | Audio | FL studio was used to record the audio for the piano |
 | [Youtube](https://www.youtube.com/watch?v=Zn28oeOFfxo) | Video | Trad session video |
 | [Youtube](https://youtu.be/ZrGVI430pi0) | Video | Instrument audio recordings |
 | [coolers.io](https://coolors.co/e8e8e8-fafafa-3a3a3a-ebb42c) | Colours | Colour pallet used for site |
