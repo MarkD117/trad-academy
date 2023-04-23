@@ -353,6 +353,37 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 | Signup Button | hover | Swaps text and background colour. Yellow outline appears | pass
 | Signup Button & Audio Player | Resizing screen | Above 1200px button moves beside audio player | pass
 
+#### **Sessions Page**
+
+| Item | Test | Expected Outcome | Result | 
+|--|--|--|--|
+| Header image | Resizing screen | Image scales with different screen sizes | pass
+| Flip cards | Resizing screen | Cards change position with different screen sizes | pass
+| Flip Cards | Hover Effect | cards will flip showing back information | pass
+| Session iframe | Click video | Video plays as normal | pass
+| Session iframe | Using controls | Video can be controlled | pass
+| Session iframe | Resizing screen | iframe resizes below 1000px | pass
+| Session iframe | Resizing screen | iframe resizes below 650px | pass
+
+#### **Sign Up Page**
+
+| Item | Test | Expected Outcome | Result | 
+|--|--|--|--|
+| Signup Form | Resizing screen | Form resizes with different screen sizes | pass
+| Signup Form | Inputting information | Form allows user to enter input | pass
+| Signup Form | Submitting blank form | Form requires input before being submitted | pass
+| Signup Form | Submitting full form | Form allows to be submitted | pass
+| Signup Form | Hover | Changes input border colour to yellow | pass
+| Signup Form Submit button | Hover | Swaps text and background colour | pass
+| Signup Form Submit button | Click with full form | Redirects to confirmation.html | pass
+
+#### **Confirmation Page**
+
+| Item | Test | Expected Outcome | Result | 
+|--|--|--|--|
+| Confirmation page text | Resizing screen | Text resizes with different screen sizes | pass
+| Confirmation page redirect | Wait 10 seconds after submitting form | Page redirects to index.html | pass
+| Confirmation page link | Click redirect link | Link redirects to index.html | pass
 
 ## Deployment
 
