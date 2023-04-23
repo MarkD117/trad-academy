@@ -466,7 +466,47 @@ The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
 The live link can be found [here](https://markd117.github.io/trad-academy/)
 
-
 ## Credits
 
+### Content
 
+| Source | Item | Notes |
+| --- | --- | --- |
+| [Tahmid Ahmed](https://youtu.be/VRrEquQfh88) | Navbar | Creating responsive nav bar with hamburger menu |
+| [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/?child=first) | Site subheading | Design inspiration for sub heading |
+| [codepen,io](https://codepen.io/jimmycow/pen/LmjVaz) | Quotes | Design inspiration for quotes |
+| [W3Schools](https://www.w3schools.com/howto/howto_css_flip_card.asp) | Flip Cards | Flip cards template |
+| [medium.com](https://medium.com/front-end-weekly/absolute-centering-in-css-ea3a9d0ad72e) | Positioning | Position headings in center of images on home page |
+| [StackOverflow](https://stackoverflow.com/questions/17704539/css-getting-text-in-one-line-rather-than-two) | Positioning | Preventing text from overflowing onto another line |
+| [Kevin Powell](https://www.youtube.com/@KevinPowell) | CSS | Understanding flexbox and responsive layouts |
+| [Slaying The Dragon](https://www.youtube.com/@slayingthedragon) | CSS | Understanding flexbox and responsive layouts |
+| [Google Fonts](https://fonts.google.com/) | Fonts | Source for all fonts used on the site |
+| [Font Awesome](https://fontawesome.com/) | Icons | Source for all icons used on the site |
+
+### Media
+
+| Source | Item | Notes |
+| --- | --- | --- |
+| [ireland.com](https://www.ireland.com/en-ca/magazine/music/traditional-irish-music-instruments/) | Image | Hero image |
+| [roughguides.com](https://www.roughguides.com/ireland/) | Image | About us section |
+| [mcneelamusic.com](https://blog.mcneelamusic.com/traditional-irish-music-irish-instruments/) | Image | What is Trad section |
+| [visitbelfast.com](https://visitbelfast.com/article/traditional-live-music-in-belfast/) | Image | Why learn image |
+| [courses.ie](https://www.courses.ie/traditional-music-courses/) | Image | Lessons header image |
+| [deeringbanjos.com](https://blog.deeringbanjos.com/irish-tenor-banjo) | Image | Banjo image |
+| [Unsplash](https://unsplash.com/photos/1wSRcrrMwZc) | Image | Mandolin image |
+| [Unsplash](https://unsplash.com/photos/IsKijub-qHM) | Image | Fiddle image |
+| [Unsplash](https://unsplash.com/photos/hUHzaiAHuUc) | Image | Guitar image |
+| [Unsplash](https://unsplash.com/photos/yvEVMyTzMO4) | Image | Piano image |
+| [blog.oup.com](https://blog.oup.com/2015/03/ten-facts-irish-fiddle/) | Research | Reseach on fiddle |
+| [mcneelamusic.com](https://mcneelamusic.com/) | Research | Various Instruments reseach |
+| [mcneelamusic.com](https://blog.mcneelamusic.com/irish-music-accompaniment-how-to-accompany-traditional-irish-music/) | Research | Accompaniment reseach |
+| [Unsplash](https://unsplash.com/photos/pi_6nTmUrgc) | Image | Flip Card image 1 |
+| [Unsplash](https://unsplash.com/photos/Zrp9b3PMIy8) | Image | Flip Card image 2 |
+| [Seans Bar Athlone](https://www.linkedin.com/company/sean-s-bar-ireland-s-oldest-pub/?originalSubdomain=ie) | Image | Flip Card image 3 |
+| [Unsplash](https://unsplash.com/photos/GXXYkSwndP4) | Image | Flip Card image 4 |
+| [Unsplash](https://unsplash.com/photos/QGPmWrclELg) | Image | Sessions header image |
+| [Unsplash](https://unsplash.com/photos/YCQFgqOzLmU) | Image | Sign up page background |
+| [Unsplash](https://unsplash.com/photos/8QrPJ3Kfie4) | Image | Confirmation page background |
+| [Youtube](https://www.youtube.com/watch?v=Zn28oeOFfxo) | Video | Trad session video |
+| [Youtube](https://youtu.be/ZrGVI430pi0) | Video | Instrument audio recordings |
+| [coolers.io](https://coolors.co/e8e8e8-fafafa-3a3a3a-ebb42c) | Colours | Colour pallet used for site |
