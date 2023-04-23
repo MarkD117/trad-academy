@@ -407,6 +407,54 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 
     - This bug was fixed by adding a `350px` margin to each side of the contact container. Once the contact information start to get close, they spread out again.
 
+## Known Bugs
+
+- There is a bug on iOS that causes an error when loading the audio
+
+    ![ios-audio-signup screenshot](documentation/ios-audio-signup.png)
+
+    ![android-audio-signup screenshot](documentation/android-audio-signup.jpg)
+
+    - The audio showed as 00:00 and was unable to play in the format below:
+        ``` HTML
+            <div class="audio-signup-container">
+                <audio controls muted>
+                    <p>
+                        Your browser does not support this audio. Click <a
+                        href="assets/audio/guitaraudio.mp3" download>here</a> to download the audio!
+                    </p>
+                    <source src="assets/audio/banjoaudio.mp3" type="audio/mpeg">
+                </audio>
+                <a href="signup.html" class="signup-button signup-mobile-position">Sign Up</a>
+            </div>
+         ```
+
+         I removed the source element as per a conversation with my mentor. After that was removed, the audio showed as error.
+
+         ``` HTML
+            <div class="audio-signup-container">
+                <audio src="assets/audio/guitaraudio.mp3" controls muted>
+                    <p>
+                        Your browser does not support this audio. Click <a
+                        href="assets/audio/guitaraudio.mp3" download>here</a> to download the audio!
+                    </p>
+                </audio>
+                <a href="signup.html" class="signup-button signup-mobile-position">Sign Up</a>
+            </div>
+        ```
+        Interestingly enough, the piano audio works fine (Code shown below). I believe it may have something to do with the audio files themselves however it is odd as the audio works fine on browsers as well as on android.
+
+        ``` HTML
+            <div class="audio-signup-container">
+                <audio src="assets/audio/pianoaudio.mp3" controls muted>
+                    <p>
+                        Your browser does not support this audio. Click <a
+                        href="assets/audio/pianoaudio.mp3" download>here</a> to download the audio!
+                    </p>
+                </audio>
+                <a href="signup.html" class="signup-button signup-mobile-position">Sign Up</a>
+            </div>
+        ```
 
 ## Deployment
 
