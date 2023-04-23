@@ -269,6 +269,8 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 
 ## Testing
 
+### Code Validation
+
 
 ## Deployment
 
