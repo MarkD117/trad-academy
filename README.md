@@ -409,12 +409,10 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 
 ## Known Bugs
 
-- There is a bug on iOS that causes an error when loading the audio
+- There is a bug on iOS that causes an error when loading the audio. This can be seen in the screenshots below. The image on the left is an iOS device and the image on the right is an Android.
 
-    ![ios-audio-signup screenshot](documentation/ios-audio-signup.png)
-
-    ![android-audio-signup screenshot](documentation/android-audio-signup.jpg)
-
+    ![ios-audio-signup screenshot](documentation/ios-audio-signup.png) ![android-audio-signup screenshot](documentation/android-audio-signup.jpg)
+    
     - The audio showed as 00:00 and was unable to play in the format below:
         ``` HTML
             <div class="audio-signup-container">
@@ -455,6 +453,8 @@ During the planning stages, I  created wireframes for all pages of the site. I f
                 <a href="signup.html" class="signup-button signup-mobile-position">Sign Up</a>
             </div>
         ```
+
+- Another bug is also to do with iOS can be seen above. The sign up button extends onto another line. I'm unsure as to what causes this as again, the button displays correctly on all tested browsers as well as Android. This is something I will have to research into further.
 
 ## Deployment
 
