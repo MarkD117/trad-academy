@@ -252,6 +252,21 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 - More info about Lesson plans
     - I would like to have more information about the lessons. This can include a breakdown of the syllabus, class times, location etc. I would like to implement this to give the user more information about the lessons provided from the Academy.
 
+- User profile
+    - I would also like to create a system where a user can create a profile and manage different lessons they want to sign up to
+
+- Payment Method
+    - As users will be signing up to various lesson plans, I would like to implement an online payment system so that users can pay for lessons online. This could also add recurring billing if the user continues with the lessons.
+
+## Tools & Technologies Used
+
+- HTML used to create main site content
+- CSS used designing and styling the layout of the site
+- JavaScript used to implement side-menu for navigation section.
+- GitHub used to store site source code.
+- GitHub Pages used to deploy the main site
+- Gitpod used as a cloud-based IDE for developing the site.
+
 ## Testing
 
 
