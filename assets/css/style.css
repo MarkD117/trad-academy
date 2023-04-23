@@ -1010,6 +1010,10 @@ select:hover {
         width: 50%;
     }
 
+    #contact-info {
+        margin: 35px 350px 0 350px;
+    }
+
     #instruments-info {
         width: 80%;
         margin: 0 auto;
