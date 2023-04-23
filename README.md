@@ -385,6 +385,29 @@ During the planning stages, I  created wireframes for all pages of the site. I f
 | Confirmation page redirect | Wait 10 seconds after submitting form | Page redirects to index.html | pass
 | Confirmation page link | Click redirect link | Link redirects to index.html | pass
 
+## Bug Fixes
+
+- There was a bug with all hero and header images. While the page was being resized, The hero/header images were set to change at 1000px. This caused gaps at both sides of the image.
+
+    ![hero-image-bug screenshot](documentation/hero-image-bug.png)
+
+    - This bug was fixed by creating a media query `@media screen and (min-width: 820px)` and setting the images to change at 820px as that was the breaking point.
+
+- Assigning `user-input` class on `select` form element, caused the height of the element to shrink.
+
+    ![form-select-class-bug screenshot](documentation/form-select-class-bug.png) ![form-select-class-bug-fixed screenshot](documentation/form-select-class-bug-fixed.png)
+
+    - This bug was fixed by giving the `select` element its own css style that gave it a height of `27px` and allowed the text to be centered.
+
+- Contact info separation too wide. At larger screen sizes, the contact info spreads put very wide.
+
+    ![contact-info-spread-bug screenshot](documentation/contact-info-spread-bug.png)
+
+    ![contact-info-spread-bug-fixed screenshot](documentation/contact-info-spread-bug-fixed.png)
+
+    - This bug was fixed by adding a `350px` margin to each side of the contact container. Once the contact information start to get close, they spread out again.
+
+
 ## Deployment
 
 
